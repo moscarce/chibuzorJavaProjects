@@ -13,7 +13,7 @@ public class Bike {
         return startBike;
     }
     public void setSpeed(int speed){
-        this.speed = speed;
+        if(startBike)this.speed = speed;
     }
     public int getSpeed(){
         return speed;

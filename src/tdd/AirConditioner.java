@@ -20,7 +20,7 @@ public class AirConditioner {
         this.productName = productName;
     }
 
-    public String getProductName(String productName) {
+    public String getProductName() {
         return productName;
     }
 
