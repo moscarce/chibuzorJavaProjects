@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30e01f21-acf2-4bf5-9bf6-62ee603c321e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tdd/Television.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tdd/TelevisionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tdd/AirConditioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tdd/AirConditioner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tdd/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tdd/Bike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/tdd/TelevisionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tdd/TelevisionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +55,7 @@
       <recent name="tdd" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TelevisionTest.isOn">
+  <component name="RunManager" selected="JUnit.TelevisionTest">
     <configuration name="BikeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chibuzorJavaProjects" />
       <extension name="coverage">
@@ -74,7 +71,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BikeTest.accelerateBike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TelevisionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chibuzorJavaProjects" />
       <extension name="coverage">
         <pattern>
@@ -83,14 +80,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.BikeTest" />
-      <option name="METHOD_NAME" value="accelerateBike" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="tdd.TelevisionTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BikeTest.decelerateBike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TelevisionTest.channel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chibuzorJavaProjects" />
       <extension name="coverage">
         <pattern>
@@ -99,24 +95,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.BikeTest" />
-      <option name="METHOD_NAME" value="decelerateBike" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BikeTest.gearSpeed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chibuzorJavaProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tdd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.BikeTest" />
-      <option name="METHOD_NAME" value="gearSpeed" />
+      <option name="MAIN_CLASS_NAME" value="tdd.TelevisionTest" />
+      <option name="METHOD_NAME" value="channel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,13 +118,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TelevisionTest.volume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chibuzorJavaProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tdd" />
+      <option name="MAIN_CLASS_NAME" value="tdd.TelevisionTest" />
+      <option name="METHOD_NAME" value="volume" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TelevisionTest" />
+        <item itemvalue="JUnit.TelevisionTest.volume" />
+        <item itemvalue="JUnit.TelevisionTest.channel" />
         <item itemvalue="JUnit.TelevisionTest.isOn" />
         <item itemvalue="JUnit.BikeTest" />
-        <item itemvalue="JUnit.BikeTest.gearSpeed" />
-        <item itemvalue="JUnit.BikeTest.decelerateBike" />
-        <item itemvalue="JUnit.BikeTest.accelerateBike" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +153,7 @@
       <option name="presentableId" value="Default" />
       <updated>1686222964226</updated>
       <workItem from="1686222966328" duration="41785000" />
-      <workItem from="1686499979923" duration="2715000" />
+      <workItem from="1686499979923" duration="4530000" />
     </task>
     <servers />
   </component>

@@ -11,9 +11,9 @@ public class Television {
         return isOn;
     }
     public void setChannel(int channelNumber){
-        if(isOn && channel <= 300 && channel > 0)this.channel = channelNumber;
+        if(isOn && channelNumber <= 300 && channelNumber > 0)this.channel = channelNumber;
     }
-    public int getChannel(){
+    public int getChannelNumber(){
         return channel;
     }
     public void nextChannel(){
