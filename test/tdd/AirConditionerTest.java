@@ -10,13 +10,13 @@ public class AirConditionerTest {
         public void acIsOn(){
         AirConditioner samsung = new AirConditioner("samsung");
         samsung.setOn(true);
-        assertTrue(samsung.getIsOn());
+        assertTrue(samsung.isOn());
     }
     @Test
     public void acIsOff(){
         AirConditioner samsung = new AirConditioner("samsung");
         samsung.setOn(false);
-        assertFalse(samsung.getIsOn());
+        assertFalse(samsung.isOn());
     }
     @Test
     public void defaultTemperature(){

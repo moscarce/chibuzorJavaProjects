@@ -8,15 +8,15 @@ public class TelevisionTest {
     public void isOn(){
         Television sony = new Television();
         sony.isOn(true);
-        assertTrue(sony.getIsOn());
+        assertTrue(sony.isOn());
         sony.isOn(false);
-        assertFalse(sony.getIsOn());
+        assertFalse(sony.isOn());
     }
     @Test
     public void channel(){
         Television sony = new Television();
         sony.isOn(true);
-        assertTrue(sony.getIsOn());
+        assertTrue(sony.isOn());
         sony.setChannel(99);
         assertEquals(99, sony.getChannelNumber());
         sony.nextChannel();
@@ -28,7 +28,7 @@ public class TelevisionTest {
     public void volume(){
         Television sony = new Television();
         sony.isOn(true);
-        assertTrue(sony.getIsOn());
+        assertTrue(sony.isOn());
         sony.setVolume(99);
         assertEquals(99, sony.getVolume());
         sony.increaseVolume();

@@ -9,19 +9,19 @@ public class BikeTest {
     public void bikeOn(){
         Bike user = new Bike();
         user.startBike(true);
-        assertTrue(user.getIsOn());
+        assertTrue(user.isOn());
     }
     @Test
     public void bikeOff(){
         Bike user = new Bike();
         user.startBike(false);
-        assertFalse(user.getIsOn());
+        assertFalse(user.isOn());
     }
     @Test
     public void accelerateBike(){
         Bike user = new Bike();
         user.startBike(true);
-        assertTrue(user.getIsOn());
+        assertTrue(user.isOn());
         user.setSpeed(5);
         assertEquals(5, user.getSpeed());
         assertEquals(1, user.getGear());
@@ -47,7 +47,7 @@ public class BikeTest {
     public void decelerateBike(){
         Bike user = new Bike();
         user.startBike(true);
-        assertTrue(user.getIsOn());
+        assertTrue(user.isOn());
         user.setSpeed(5);
         assertEquals(5, user.getSpeed());
         assertEquals(1, user.getGear());
@@ -74,7 +74,7 @@ public class BikeTest {
     public void gearSpeed(){
         Bike user = new Bike();
         user.startBike(true);
-        assertTrue(user.getIsOn());
+        assertTrue(user.isOn());
         user.setSpeed(5);
         assertEquals(5, user.getSpeed());
         assertEquals(1, user.getGear());

@@ -9,7 +9,7 @@ public class Bike {
         this.startBike = status;
     }
 
-    public boolean getIsOn() {
+    public boolean isOn() {
         return startBike;
     }
     public void setSpeed(int speed){

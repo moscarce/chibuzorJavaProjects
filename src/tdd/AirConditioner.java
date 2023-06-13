@@ -13,7 +13,7 @@ public class AirConditioner {
         this.isOn = status;
     }
 
-    public boolean getIsOn() {
+    public boolean isOn() {
         return isOn;
     }
     public void setProductName(String productName){

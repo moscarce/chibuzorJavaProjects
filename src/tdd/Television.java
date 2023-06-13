@@ -7,7 +7,7 @@ public class Television {
     public void isOn(boolean status) {
         this.isOn = status;
     }
-    public boolean getIsOn(){
+    public boolean isOn(){
         return isOn;
     }
     public void setChannel(int channelNumber){

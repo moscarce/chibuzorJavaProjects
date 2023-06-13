@@ -10,15 +10,15 @@ public class MPThreeTest {
     public void isOn(){
         MPThree sony = new MPThree();
         sony.isOn(true);
-        assertTrue(sony.getIsOn());
+        assertTrue(sony.isOn());
         sony.isOn(false);
-        assertFalse(sony.getIsOn());
+        assertFalse(sony.isOn());
     }
     @Test
     public void volume(){
         MPThree sony = new MPThree();
         sony.isOn(true);
-        assertTrue(sony.getIsOn());
+        assertTrue(sony.isOn());
         sony.setVolume(49);
         assertEquals(49, sony.getVolume());
         sony.increaseVolume();
@@ -30,7 +30,7 @@ public class MPThreeTest {
     public void musicButtons(){
         MPThree sony = new MPThree();
         sony.isOn(true);
-        assertTrue(sony.getIsOn());
+        assertTrue(sony.isOn());
         sony.nextMusic();
         assertEquals(2, sony.getMusicNumber());
         sony.nextMusic();

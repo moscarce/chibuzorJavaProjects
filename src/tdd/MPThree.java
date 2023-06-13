@@ -10,7 +10,7 @@ public class MPThree {
     public void isOn(boolean status) {
         this.isOn = status;
     }
-    public boolean getIsOn(){
+    public boolean isOn(){
         return isOn;
     }
 
