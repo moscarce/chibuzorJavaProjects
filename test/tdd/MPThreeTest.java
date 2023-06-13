@@ -38,4 +38,14 @@ public class MPThreeTest {
         sony.previousMusic();
         assertEquals(2, sony.getMusicNumber());
     }
+    @Test
+    public void pause(){
+        MPThree sony = new MPThree();
+        sony.isOn(true);
+        assertTrue(sony.isOn());
+        sony.setPause(true);
+        assertTrue(sony.pause());
+        sony.setPause(false);
+        assertFalse(sony.pause());
+    }
 }

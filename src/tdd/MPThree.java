@@ -4,6 +4,7 @@ public class MPThree {
     private boolean isOn;
     private int musicNumber;
     private int volume;
+    private boolean pause;
     public MPThree(){
         this.musicNumber = 1;
     }
@@ -22,6 +23,12 @@ public class MPThree {
     }
     public void previousMusic(){
         if(isOn && musicNumber > 1)musicNumber--;
+    }
+    public void setPause(boolean status) {
+        if(isOn)this.pause = status;
+    }
+    public boolean pause(){
+        return pause;
     }
     public void setVolume(int volumeNumber){
         if(isOn && volumeNumber <= 100 && volumeNumber > 0)this.volume = volumeNumber;
