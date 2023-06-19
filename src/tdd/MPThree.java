@@ -8,8 +8,8 @@ public class MPThree {
     public MPThree(){
         this.musicNumber = 1;
     }
-    public void isOn(boolean status) {
-        this.isOn = status;
+    public void power() {
+        isOn = !isOn;
     }
     public boolean isOn(){
         return isOn;
@@ -24,10 +24,10 @@ public class MPThree {
     public void previousMusic(){
         if(isOn && musicNumber > 1)musicNumber--;
     }
-    public void setPause(boolean status) {
-        if(isOn)this.pause = status;
+    public void pause(boolean status) {
+        if(isOn)pause = !pause;
     }
-    public boolean pause(){
+    public boolean getPause(){
         return pause;
     }
     public void setVolume(int volumeNumber){
