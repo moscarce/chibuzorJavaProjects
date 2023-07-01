@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30e01f21-acf2-4bf5-9bf6-62ee603c321e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/InfiniteStudentScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tdd/ArrayImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tdd/Clock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tdd/MinuteToSeconds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tdd/Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/ClockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/MinuteToSecondsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/SortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,8 +61,9 @@
       <recent name="tdd" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="ArrayMethodTest.canAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ArrayImage">
+    <configuration name="ArrayImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tdd.ArrayImage" />
       <module name="chibuzorJavaProjects" />
       <extension name="coverage">
         <pattern>
@@ -64,15 +71,11 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.ArrayMethodTest" />
-      <option name="METHOD_NAME" value="canAdd" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BikeTest.decelerateBike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MinuteToSecondsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chibuzorJavaProjects" />
       <extension name="coverage">
         <pattern>
@@ -81,29 +84,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.BikeTest" />
-      <option name="METHOD_NAME" value="decelerateBike" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MPThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chibuzorJavaProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tdd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.MPThreeTest" />
+      <option name="MAIN_CLASS_NAME" value="tdd.MinuteToSecondsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MPThreeTest.isOn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MinuteToSecondsTest.testMinuteToSecondsMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chibuzorJavaProjects" />
       <extension name="coverage">
         <pattern>
@@ -112,14 +99,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.MPThreeTest" />
-      <option name="METHOD_NAME" value="isOn" />
+      <option name="MAIN_CLASS_NAME" value="tdd.MinuteToSecondsTest" />
+      <option name="METHOD_NAME" value="testMinuteToSecondsMethod" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MPThreeTest.pause" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chibuzorJavaProjects" />
       <extension name="coverage">
         <pattern>
@@ -128,8 +115,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.MPThreeTest" />
-      <option name="METHOD_NAME" value="pause" />
+      <option name="MAIN_CLASS_NAME" value="tdd.SortTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortTest.testThatNumbersAreEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chibuzorJavaProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tdd" />
+      <option name="MAIN_CLASS_NAME" value="tdd.SortTest" />
+      <option name="METHOD_NAME" value="testThatNumbersAreEqual" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ArrayMethodTest.canAdd" />
-        <item itemvalue="JUnit.MPThreeTest" />
-        <item itemvalue="JUnit.MPThreeTest.pause" />
-        <item itemvalue="JUnit.MPThreeTest.isOn" />
-        <item itemvalue="JUnit.BikeTest.decelerateBike" />
+        <item itemvalue="Application.ArrayImage" />
+        <item itemvalue="JUnit.MinuteToSecondsTest" />
+        <item itemvalue="JUnit.MinuteToSecondsTest.testMinuteToSecondsMethod" />
+        <item itemvalue="JUnit.SortTest.testThatNumbersAreEqual" />
+        <item itemvalue="JUnit.SortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +163,12 @@
       <workItem from="1686903695493" duration="5131000" />
       <workItem from="1686974049427" duration="71000" />
       <workItem from="1687146054440" duration="2535000" />
-      <workItem from="1687162837260" duration="334000" />
+      <workItem from="1687162837260" duration="659000" />
+      <workItem from="1687164055662" duration="675000" />
+      <workItem from="1687335297263" duration="23226000" />
+      <workItem from="1687419640631" duration="508000" />
+      <workItem from="1687848799834" duration="2859000" />
+      <workItem from="1687936149285" duration="43000" />
     </task>
     <servers />
   </component>
