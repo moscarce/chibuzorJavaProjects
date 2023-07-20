@@ -5,14 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30e01f21-acf2-4bf5-9bf6-62ee603c321e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tdd/ArrayImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tdd/Clock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tdd/MinuteToSeconds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tdd/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tdd/ClockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tdd/MinuteToSecondsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tdd/SortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AverageActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AverageOfOnlyValid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EchoFourAndEight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EchoFourAndEightMultiples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EvenInputAverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EvenNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IntArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiplesOfFourAndEidght.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrintArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReturnFourAndEight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SumAndAverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SumOfEven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SumOfEvenInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SumOfMultiplesOfFourAndEight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SumOnlyValid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TenValidInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThirtyToResetSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TotalSumOfEightAndFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arraySnacks/ComputRunningTotal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arraySnacks/EvenPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arraySnacks/LargestElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arraySnacks/OddPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arraySnacks/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arraySnacks/ReverseList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arraySnacks/SearchList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/julyNineteen/SevenSegment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/julyNineteen/TicTacToeArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/julyNineteen/TicTacToeEdit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/julySeventeen/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/julySeventeen/LargestAndLowestSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/julySeventeen/Multiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/julySeventeen/Power.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/julySeventeen/ReverseNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oddNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/JulySeventeenthActivityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/SevenSegmentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +61,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="ProjectId" id="2Qv90MICZokwz4XapGgupcOfOwk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -48,11 +86,13 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_directory_selection&quot;: &quot;/home/user/IdeaProjects/chibuzorJavaProjects/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/user/IdeaProjects/chibuzorJavaProjects/src&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -60,22 +100,18 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="tdd" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="tdd" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayImage">
-    <configuration name="ArrayImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tdd.ArrayImage" />
-      <module name="chibuzorJavaProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tdd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinuteToSecondsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SevenSegmentTest.testForNumberSix">
+    <configuration name="SevenSegmentTest.testForNumberFive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chibuzorJavaProjects" />
       <extension name="coverage">
         <pattern>
@@ -84,29 +120,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.MinuteToSecondsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinuteToSecondsTest.testMinuteToSecondsMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chibuzorJavaProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tdd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.MinuteToSecondsTest" />
-      <option name="METHOD_NAME" value="testMinuteToSecondsMethod" />
+      <option name="MAIN_CLASS_NAME" value="tdd.SevenSegmentTest" />
+      <option name="METHOD_NAME" value="testForNumberFive" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SevenSegmentTest.testForNumberFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chibuzorJavaProjects" />
       <extension name="coverage">
         <pattern>
@@ -115,13 +136,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.SortTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="tdd.SevenSegmentTest" />
+      <option name="METHOD_NAME" value="testForNumberFour" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortTest.testThatNumbersAreEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SevenSegmentTest.testForNumberOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chibuzorJavaProjects" />
       <extension name="coverage">
         <pattern>
@@ -130,8 +152,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.SortTest" />
-      <option name="METHOD_NAME" value="testThatNumbersAreEqual" />
+      <option name="MAIN_CLASS_NAME" value="tdd.SevenSegmentTest" />
+      <option name="METHOD_NAME" value="testForNumberOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SevenSegmentTest.testForNumberSix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chibuzorJavaProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tdd" />
+      <option name="MAIN_CLASS_NAME" value="tdd.SevenSegmentTest" />
+      <option name="METHOD_NAME" value="testForNumberSix" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SevenSegmentTest.testForNumberTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chibuzorJavaProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tdd" />
+      <option name="MAIN_CLASS_NAME" value="tdd.SevenSegmentTest" />
+      <option name="METHOD_NAME" value="testForNumberTwo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayImage" />
-        <item itemvalue="JUnit.MinuteToSecondsTest" />
-        <item itemvalue="JUnit.MinuteToSecondsTest.testMinuteToSecondsMethod" />
-        <item itemvalue="JUnit.SortTest.testThatNumbersAreEqual" />
-        <item itemvalue="JUnit.SortTest" />
+        <item itemvalue="JUnit.SevenSegmentTest.testForNumberSix" />
+        <item itemvalue="JUnit.SevenSegmentTest.testForNumberFive" />
+        <item itemvalue="JUnit.SevenSegmentTest.testForNumberFour" />
+        <item itemvalue="JUnit.SevenSegmentTest.testForNumberTwo" />
+        <item itemvalue="JUnit.SevenSegmentTest.testForNumberOne" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +223,29 @@
       <workItem from="1687419640631" duration="508000" />
       <workItem from="1687848799834" duration="2859000" />
       <workItem from="1687936149285" duration="43000" />
+      <workItem from="1688179672629" duration="745000" />
+      <workItem from="1688390603059" duration="97000" />
+      <workItem from="1688401275106" duration="307000" />
+      <workItem from="1688402511877" duration="1202000" />
+      <workItem from="1688453812301" duration="3367000" />
+      <workItem from="1688648769518" duration="266000" />
+      <workItem from="1688725561914" duration="4049000" />
+      <workItem from="1688730743800" duration="4369000" />
+      <workItem from="1689144457595" duration="468000" />
+      <workItem from="1689164628238" duration="1917000" />
+      <workItem from="1689170207117" duration="657000" />
+      <workItem from="1689176387795" duration="566000" />
+      <workItem from="1689218094632" duration="94000" />
+      <workItem from="1689330447084" duration="10595000" />
+      <workItem from="1689342067942" duration="4052000" />
+      <workItem from="1689384332890" duration="1418000" />
+      <workItem from="1689541321550" duration="392000" />
+      <workItem from="1689565465967" duration="3710000" />
+      <workItem from="1689578407634" duration="20061000" />
+      <workItem from="1689666002803" duration="1725000" />
+      <workItem from="1689765460719" duration="16218000" />
+      <workItem from="1689823345972" duration="2003000" />
+      <workItem from="1689838730014" duration="429000" />
     </task>
     <servers />
   </component>
@@ -185,5 +262,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
