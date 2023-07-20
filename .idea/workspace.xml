@@ -4,49 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30e01f21-acf2-4bf5-9bf6-62ee603c321e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AverageActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AverageOfOnlyValid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EchoFourAndEight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EchoFourAndEightMultiples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EvenInputAverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EvenNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IntArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultiplesOfFourAndEidght.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrimeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrintArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReturnFourAndEight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SumAndAverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SumOfEven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SumOfEvenInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SumOfMultiplesOfFourAndEight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SumOnlyValid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TenValidInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThirtyToResetSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TotalSumOfEightAndFour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arraySnacks/ComputRunningTotal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arraySnacks/EvenPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arraySnacks/LargestElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arraySnacks/OddPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arraySnacks/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arraySnacks/ReverseList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arraySnacks/SearchList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/julyNineteen/SevenSegment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/julyNineteen/TicTacToeArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/julyNineteen/TicTacToeEdit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/julySeventeen/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/julySeventeen/LargestAndLowestSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/julySeventeen/Multiply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/julySeventeen/Power.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/julySeventeen/ReverseNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oddNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tdd/JulySeventeenthActivityTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tdd/SevenSegmentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-    </list>
+    <list default="true" id="30e01f21-acf2-4bf5-9bf6-62ee603c321e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -245,7 +203,7 @@
       <workItem from="1689666002803" duration="1725000" />
       <workItem from="1689765460719" duration="16218000" />
       <workItem from="1689823345972" duration="2003000" />
-      <workItem from="1689838730014" duration="429000" />
+      <workItem from="1689838730014" duration="767000" />
     </task>
     <servers />
   </component>

@@ -3,7 +3,7 @@ package julyNineteen;
 public class SevenSegment {
  private char[][] sevenSegment;
  private String power;
-    boolean isValid;
+ private boolean isValid;
 
 
     public void setSevenSegment(String socket) {
