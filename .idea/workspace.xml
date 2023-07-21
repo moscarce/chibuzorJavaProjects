@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30e01f21-acf2-4bf5-9bf6-62ee603c321e" name="Changes" comment="" />
+    <list default="true" id="30e01f21-acf2-4bf5-9bf6-62ee603c321e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/EnforcingPrivacyWithCryptography.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MBTI/MyersBriggs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,40 +73,35 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SevenSegmentTest.testForNumberSix">
-    <configuration name="SevenSegmentTest.testForNumberFive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.MyersBriggs">
+    <configuration name="EnforcingPrivacyWithCryptography" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EnforcingPrivacyWithCryptography" />
       <module name="chibuzorJavaProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tdd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.SevenSegmentTest" />
-      <option name="METHOD_NAME" value="testForNumberFive" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SevenSegmentTest.testForNumberFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyersBriggs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MBTI.MyersBriggs" />
       <module name="chibuzorJavaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tdd.*" />
+          <option name="PATTERN" value="MBTI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.SevenSegmentTest" />
-      <option name="METHOD_NAME" value="testForNumberFour" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SevenSegmentTest.testForNumberOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringTest" />
+      <module name="chibuzorJavaProjects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SevenSegmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chibuzorJavaProjects" />
       <extension name="coverage">
         <pattern>
@@ -111,8 +111,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tdd" />
       <option name="MAIN_CLASS_NAME" value="tdd.SevenSegmentTest" />
-      <option name="METHOD_NAME" value="testForNumberOne" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,29 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SevenSegmentTest.testForNumberTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chibuzorJavaProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tdd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.SevenSegmentTest" />
-      <option name="METHOD_NAME" value="testForNumberTwo" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyersBriggs" />
+        <item itemvalue="Application.EnforcingPrivacyWithCryptography" />
+        <item itemvalue="Application.StringTest" />
+        <item itemvalue="JUnit.SevenSegmentTest" />
         <item itemvalue="JUnit.SevenSegmentTest.testForNumberSix" />
-        <item itemvalue="JUnit.SevenSegmentTest.testForNumberFive" />
-        <item itemvalue="JUnit.SevenSegmentTest.testForNumberFour" />
-        <item itemvalue="JUnit.SevenSegmentTest.testForNumberTwo" />
-        <item itemvalue="JUnit.SevenSegmentTest.testForNumberOne" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +186,9 @@
       <workItem from="1689666002803" duration="1725000" />
       <workItem from="1689765460719" duration="16218000" />
       <workItem from="1689823345972" duration="2003000" />
-      <workItem from="1689838730014" duration="767000" />
+      <workItem from="1689838730014" duration="1784000" />
+      <workItem from="1689909162442" duration="16188000" />
+      <workItem from="1689963703235" duration="4715000" />
     </task>
     <servers />
   </component>
