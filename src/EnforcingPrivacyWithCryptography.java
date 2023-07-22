@@ -1,43 +1,41 @@
-//public class EnforcingPrivacyWithCryptography {
-//    public static void main(String[] args) {
-//        encryptInteger(1234);
-//    }
-//    public static void encryptInteger(int number){
-//        if (number > 999 && number < 10000){
-//            int[] encryptedNumbers = new int[4];
-//            String encryptedOutput = "";
-//            int digit;
-//            for (int i = 0; i < 4; i++) {
-//                digit = number % 10;
-//                number /= 10;
-//                digit += 7;
-//                digit %= 10;
-//                encryptedNumbers[i] = digit;
-//            }
-//            encryptedOutput = encryptedOutput + encryptedNumbers[1] + encryptedNumbers[0] + encryptedNumbers[3] + encryptedNumbers[2];
-//            System.out.println("Encrypted number: " + encryptedOutput);
-//        }else {
-//            System.out.println("Number must be four digits integer");
-//        }
-//    }
-//    public static void decryptInteger(int number){
-//        if (number > 999 && number < 10000){
-//            int[] decryptedNumber = new int[4];
-//            String decryptedOutput = "";
-//            int digit;
-//            for (int i = 0; i < 4; i++) {
-//                digit = number % 10;
-//                if (digit >= 0 && digit < 7){
-//                    digit += 3;
-//                    decryptedNumber[i]=digit;
-//                }else {
-//                    decryptedNumber[i]=digit;
-//                }
-//
-//            }
-//            decryptedOutput = decryptedOutput + decryptedNumber[3] + decryptedNumber[2] + decryptedNumber[]
-//        }else {
-//            System.out.println("Number must be four digits integer");
-//        }
-//    }
-//}
+public class EnforcingPrivacyWithCryptography {
+    public static void main(String[] args) {
+        System.out.println(encryptData("1234"));
+        System.out.println(decryptData("0189"));
+        System.out.println(encryptData("0002"));
+        System.out.println(decryptData("7977"));
+
+    }
+    public static String encryptData(String number) {
+        int digit;
+        int[] encryptedDigit = new int[4];
+        String encryptedNumber = "";
+        for (int index = 0; index < number.length(); index++) {
+            digit = Integer.parseInt(String.valueOf(number.charAt(index)));
+            digit += 7;
+            digit %= 10;
+            encryptedDigit[index] = digit;
+        }
+        encryptedNumber += encryptedDigit[2];
+        encryptedNumber += encryptedDigit[3];
+        encryptedNumber += encryptedDigit[0];
+        encryptedNumber += encryptedDigit[1];
+        return encryptedNumber;
+    }
+    public static String decryptData(String number) {
+        int digit;
+        int[] decryptedDigit = new int[4];
+        String decryptedNumber = "";
+        for (int index = 0; index < number.length(); index++) {
+            digit = Integer.parseInt(String.valueOf(number.charAt(index)));
+            if(digit > 6)digit -= 7;
+            else digit += 3;
+            decryptedDigit[index] = digit;
+        }
+        decryptedNumber += decryptedDigit[2];
+        decryptedNumber += decryptedDigit[3];
+        decryptedNumber += decryptedDigit[0];
+        decryptedNumber += decryptedDigit[1];
+        return decryptedNumber;
+    }
+}
