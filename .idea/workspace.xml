@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30e01f21-acf2-4bf5-9bf6-62ee603c321e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/EnforcingPrivacyWithCryptography.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MBTI/MyersBriggs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MBTI/MyersBriggs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MBTI/MyersBriggs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +186,8 @@
       <workItem from="1689823345972" duration="2003000" />
       <workItem from="1689838730014" duration="1784000" />
       <workItem from="1689909162442" duration="16188000" />
-      <workItem from="1689963703235" duration="4715000" />
+      <workItem from="1689963703235" duration="5715000" />
+      <workItem from="1689995460752" duration="6552000" />
     </task>
     <servers />
   </component>
