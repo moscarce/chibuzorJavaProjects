@@ -1,4 +1,4 @@
-package MBTI;
+package arraySnacks.MBTI;
 
 import java.util.Scanner;
 
