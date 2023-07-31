@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30e01f21-acf2-4bf5-9bf6-62ee603c321e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arraySnacks/CreditCardValidator/ValidatCreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Enums/GeoPoliticalZones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JulyTwentyfour/SevenByThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JulyTwentyfour/SpecialCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JulyTwentyfour/ThreeBySevenArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arraySnacks/StudentGrade/StudentGrade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MBTI/MyersBriggs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arraySnacks/MBTI/MyersBriggs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IntArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arraySnacks/CreditCardValidator/ValidatCreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arraySnacks/CreditCardValidator/ValidatCreditCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arraySnacks/MBTI/MyersBriggs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arraySnacks/MBTI/MyersBriggs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +37,10 @@
       <scroll-view-position x="0" y="0" />
     </layout>
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
+}]]></component>
   <component name="ProjectId" id="2Qv90MICZokwz4XapGgupcOfOwk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -72,20 +84,27 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ValidatCreditCard">
-    <configuration name="EnforcingPrivacyWithCryptography" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EnforcingPrivacyWithCryptography" />
+  <component name="RunManager" selected="Application.StudentGrade">
+    <configuration name="IntArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IntArray" />
       <module name="chibuzorJavaProjects" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyersBriggs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MBTI.MyersBriggs" />
+    <configuration name="Lesson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson" />
+      <module name="chibuzorJavaProjects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SevenByThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JulyTwentyfour.SevenByThree" />
       <module name="chibuzorJavaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MBTI.*" />
+          <option name="PATTERN" value="JulyTwentyfour.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,9 +112,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringTest" />
+    <configuration name="StudentGrade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arraySnacks.StudentGrade.StudentGrade" />
       <module name="chibuzorJavaProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arraySnacks.StudentGrade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,28 +138,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SevenSegmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chibuzorJavaProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tdd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.SevenSegmentTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentGrade" />
+        <item itemvalue="Application.IntArray" />
         <item itemvalue="Application.ValidatCreditCard" />
-        <item itemvalue="Application.EnforcingPrivacyWithCryptography" />
-        <item itemvalue="Application.MyersBriggs" />
-        <item itemvalue="Application.StringTest" />
-        <item itemvalue="JUnit.SevenSegmentTest" />
+        <item itemvalue="Application.Lesson" />
+        <item itemvalue="Application.SevenByThree" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +197,16 @@
       <workItem from="1689963703235" duration="5715000" />
       <workItem from="1689995460752" duration="7384000" />
       <workItem from="1690054919923" duration="3113000" />
-      <workItem from="1690119272984" duration="7733000" />
+      <workItem from="1690119272984" duration="8368000" />
+      <workItem from="1690167593766" duration="5373000" />
+      <workItem from="1690188153655" duration="10060000" />
+      <workItem from="1690269247410" duration="717000" />
+      <workItem from="1690356964730" duration="2986000" />
+      <workItem from="1690375615569" duration="452000" />
+      <workItem from="1690440403177" duration="1476000" />
+      <workItem from="1690442556701" duration="1293000" />
+      <workItem from="1690641197498" duration="13359000" />
+      <workItem from="1690732806161" duration="8006000" />
     </task>
     <servers />
   </component>

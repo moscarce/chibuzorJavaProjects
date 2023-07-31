@@ -15,15 +15,14 @@ public class ValidatCreditCard {
             int oddPositionTotal = 0;
             for (int index = 0; index < cardNumber.length(); index++) {
                 numbers[index] = Integer.parseInt(String.valueOf(cardNumber.charAt(index)));
-                if(index % 2 == 0){
-                    digit = numbers[index] * 2;
-                    if (digit > 9){
-                        String castDoubleDigit = "";
-                        castDoubleDigit += digit;
-                        digit = Integer.parseInt(String.valueOf(castDoubleDigit.charAt(0))) + Integer.parseInt(String.valueOf(castDoubleDigit.charAt(1)));
-                    }
+            }
+            for (int i = (numbers.length - 1); i >= 0 ; i-=2) {
+                oddPositionTotal += numbers[i];
+            }
+            for (int i = (numbers.length - 2); i >= 0 ; i-=2) {
+                digit = numbers[i] * 2;
+                    if (digit > 9)digit -= 9;
                     doubleNumberTotal += digit;
-                }else oddPositionTotal += numbers[index];
             }
             for (int number : numbers) {
                 printCardNumber += number;

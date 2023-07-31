@@ -34,7 +34,7 @@ public class MyersBriggs {
             name = input.nextLine();
             if (name.matches("^[a-zA-Z ]+$")) break;
             else {
-                System.out.println("Invalid name (The name contains symbol(s) or number(s))");
+                System.out.println("Invalid name (symbol(s) or number(s) makes the name invalid)");
             }
             if (nameTryCount == 4) {
                 System.exit(1);
@@ -392,7 +392,7 @@ private static void typeResult(int score1, int score2, int score3, int score4, i
                 break;
             case "ESFP":
                 System.out.println("""
-                        An ESFP\s
+                        An ESFP
                         ESFP is a person with the Extraverted, Observant, Feeling, and Prospecting personality traits. These people love vibrant experiences, engaging in life eagerly and taking pleasure in discovering the unknown.
                         They can be very social, often encouraging others into shared activities.
                                                 
