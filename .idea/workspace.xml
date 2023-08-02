@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30e01f21-acf2-4bf5-9bf6-62ee603c321e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Enums/GeoPoliticalZones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JulyTwentyfour/SevenByThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JulyTwentyfour/SpecialCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JulyTwentyfour/ThreeBySevenArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arraySnacks/StudentGrade/StudentGrade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IntArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arraySnacks/CreditCardValidator/ValidatCreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arraySnacks/CreditCardValidator/ValidatCreditCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arraySnacks/MBTI/MyersBriggs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arraySnacks/MBTI/MyersBriggs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arraySnacks/StudentGrade/StudentGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arraySnacks/StudentGrade/StudentGrade.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +28,10 @@
       <scroll-view-position x="0" y="0" />
     </layout>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2Qv90MICZokwz4XapGgupcOfOwk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -206,7 +197,11 @@
       <workItem from="1690440403177" duration="1476000" />
       <workItem from="1690442556701" duration="1293000" />
       <workItem from="1690641197498" duration="13359000" />
-      <workItem from="1690732806161" duration="8006000" />
+      <workItem from="1690732806161" duration="9891000" />
+      <workItem from="1690892458751" duration="5000" />
+      <workItem from="1690918977331" duration="4583000" />
+      <workItem from="1690955810389" duration="6500000" />
+      <workItem from="1691000669850" duration="1763000" />
     </task>
     <servers />
   </component>

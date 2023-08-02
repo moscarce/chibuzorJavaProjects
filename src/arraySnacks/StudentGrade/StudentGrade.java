@@ -1,21 +1,25 @@
 package arraySnacks.StudentGrade;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class StudentGrade {
     public static void main(String[] args) {
         String[][] studentSize = collectStudentSize();
-        String[][] grades = grades(studentSize);
-        String print = "";
-        for (int row = 0; row < grades.length; row++) {
-            if (row == 0) print += "=".repeat((grades[0].length) * 10) + "\n";
-            for (int column = 0; column < grades[row].length; column++) {
-                print += grades[row][column] + "    ";
+        String[][] scores = grades(studentSize);
+        String[][] grades = position(scores);
+        System.out.println("=".repeat(grades[0].length*12));
+        for (int i = 0; i < grades.length; i++) {
+            for (int j = 0; j < grades[i].length; j++) {
+                System.out.printf("%10s", grades[i][j]);
             }
-            print += "\n";
+            System.out.println();
+            if (i == 0) System.out.println("=".repeat(grades[0].length*12));
         }
-        System.out.println(print);
+        System.out.println("=".repeat(grades[0].length*12));
+        System.out.println("=".repeat(grades[0].length*12));
+        subjectSummary(grades);
     }
     public static String[][] collectStudentSize(){
         Scanner input = new Scanner(System.in);
@@ -78,6 +82,23 @@ public class StudentGrade {
         }
         return studentList;
     }
+    public static String[][] position(String[][] grades){
+        Integer[] score = new Integer[grades.length-1];
+        for (int i = 1; i < grades.length; i++) {
+            score[i-1] = Integer.parseInt(String.valueOf(grades[i][(grades[0].length - 3)] ));
+        }
+        Arrays.sort(score, Collections.reverseOrder());
+        for (int i = 1; i < grades.length; i++) {
+            for (int j = 0; j < score.length; j++) {
+                int answer = Integer.parseInt(String.valueOf(grades[i][(grades[0].length - 3)] ));
+                if(answer == score[j]){
+                    grades[i] [(grades[0].length - 1)]= "" + (j+1);
+                }
+
+            }
+        }
+        return grades;
+    }
     public static void subjectSummary(String[][] grades){
         int highestScoringStudent = Integer.MIN_VALUE;
         int lowestScoringStudent = Integer.MAX_VALUE;
@@ -87,24 +108,36 @@ public class StudentGrade {
         int numberOfFails = 0;
         String highestStudentNumber = "";
         String lowestStudentNumber = "";
-        for (int row = 1; row < grades[row].length - 3; row++) {
-            for (int col = 1; col < grades.length; col++) {
-               int score = Integer.parseInt(String.valueOf(grades[col][row]));
-                lowestStudentNumber = "";
+        for (int column = 1; column < grades[0].length - 3; column++) {
+            for (int row = 1; row < grades.length; row++) {
+               int score = Integer.parseInt(String.valueOf(grades[row][column]));
                totalScore += score;
-               average = (double) totalScore /col;
+               average = (double) totalScore /row;
                if (score < lowestScoringStudent){
                    lowestScoringStudent = score;
-                   lowestStudentNumber += col;
+                   lowestStudentNumber = "";
+                   lowestStudentNumber += row;
                }
-               if (score > highestScoringStudent) highestScoringStudent = score;
+               if (score > highestScoringStudent) {
+                   highestScoringStudent = score;
+                   highestStudentNumber = "";
+                   highestStudentNumber += row;
+               }
                if (score < 50) numberOfFails++;
                else numberOfPasses++;
             }
-//            System.out.printf("""
-//                    Subject %i
-//
-//                    """,row );
+            System.out.printf("""
+                    Subject %d
+                    Highest scoring student is: Student %s scoring %d
+                    lowest scoring student is: Student %s scoring %d
+                    Total score is: %d
+                    Average score is: %.2f
+                    Number of passes: %d
+                    Number of fails: %d
+
+                    """,column,highestStudentNumber,highestScoringStudent,lowestStudentNumber,lowestScoringStudent,totalScore,
+                    average,numberOfPasses,numberOfFails
+            );
             highestScoringStudent = Integer.MIN_VALUE;
             lowestScoringStudent = Integer.MAX_VALUE;
             totalScore = 0;
