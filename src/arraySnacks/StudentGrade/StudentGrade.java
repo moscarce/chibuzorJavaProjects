@@ -28,7 +28,7 @@ public class StudentGrade {
             String studentSize = input.nextLine();
             System.out.println("How many subject do they offer");
             String gradeSize = input.nextLine();
-            if ((gradeSize.matches("\\d+")) && (gradeSize.matches("\\d+"))){
+            if ((studentSize.matches("\\d+")) && (gradeSize.matches("\\d+"))){
                 int noOfStudents = Integer.parseInt(String.valueOf(studentSize));
                 int noOfGrades = Integer.parseInt(String.valueOf(gradeSize));
                 if (noOfGrades == 0 || noOfStudents == 0){
