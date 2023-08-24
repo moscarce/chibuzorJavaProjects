@@ -147,4 +147,7 @@ public class StudentGrade {
 
         }
     }
+    public static void classSumary(){
+        
+    }
 }
